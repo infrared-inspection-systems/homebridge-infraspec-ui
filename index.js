@@ -10,5 +10,5 @@
 import { HomebridgeCameraUI } from './src/platform.js';
 
 export default (api) => {
-  api.registerPlatform('homebridge-camera-ui', 'CameraUI', HomebridgeCameraUI, true);
+  api.registerPlatform('homebridge-infraspec-ui', 'CameraUI', HomebridgeCameraUI, true);
 };

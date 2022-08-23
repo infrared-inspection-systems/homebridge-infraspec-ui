@@ -1,6 +1,6 @@
 'use-strict';
 
-import CameraUI from 'camera.ui';
+import CameraUI from 'infraspec.ui';
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -18,10 +18,10 @@ import Handler from './services/handler.service.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const packageJson = fs.readJsonSync(path.resolve(__dirname, '../package.json'));
 
-const PLUGIN_NAME = 'homebridge-camera-ui';
-const PLATFORM_NAME = 'CameraUI';
+const PLUGIN_NAME = 'homebridge-infraspec-ui';
+const PLATFORM_NAME = 'InfraSpecUI';
 const ENV_OPTIONS = {
-  moduleName: 'homebridge-camera-ui',
+  moduleName: 'homebridge-infraspec-ui',
   moduleVersion: packageJson.version,
   global: true,
   sudo: true,
