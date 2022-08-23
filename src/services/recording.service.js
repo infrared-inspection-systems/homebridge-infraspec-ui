@@ -1,7 +1,7 @@
 /* eslint-disable unicorn/prevent-abbreviations */
 'use-strict';
 
-import * as cameraUtils from 'camera.ui/src/controller/camera/utils/camera.utils.js';
+import * as cameraUtils from 'infraspec.ui/src/controller/camera/utils/camera.utils.js';
 
 import Logger from '../../services/logger/logger.service.js';
 

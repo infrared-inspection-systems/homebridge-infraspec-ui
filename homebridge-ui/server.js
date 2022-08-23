@@ -4,8 +4,8 @@ import readline from 'readline';
 import child_process from 'child_process';
 import fs from 'fs-extra';
 
-import * as cameraUtils from 'camera.ui/src/controller/camera/utils/camera.utils.js';
-import { defaultVideoProcess } from 'camera.ui/src/services/config/config.defaults.js';
+import * as cameraUtils from 'infraspec.ui/src/controller/camera/utils/camera.utils.js';
+import { defaultVideoProcess } from 'infraspec.ui/src/services/config/config.defaults.js';
 
 let streams = {};
 

@@ -6,7 +6,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import pickPort from 'pick-port';
 import { spawn } from 'child_process';
-import * as cameraUtils from 'camera.ui/src/controller/camera/utils/camera.utils.js';
+import * as cameraUtils from 'infraspec.ui/src/controller/camera/utils/camera.utils.js';
 
 import Logger from '../../services/logger/logger.service.js';
 

@@ -1,7 +1,7 @@
 /* eslint-disable unicorn/prefer-number-properties */
 'use-strict';
 
-import { ConfigSetup } from 'camera.ui/src/services/config/config.defaults.js';
+import { ConfigSetup } from 'infraspec.ui/src/services/config/config.defaults.js';
 
 import Logger from '../logger/logger.service.js';
 
