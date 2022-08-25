@@ -13,7 +13,7 @@ import Logger from '../../services/logger/logger.service.js';
 import FfmpegProcess from '../services/ffmpeg.service.js';
 import RecordingDelegate from '../services/recording.service.js';
 
-import Ping from 'camera.ui/src/common/ping.js';
+import Ping from 'infraspec.ui/src/common/ping.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
