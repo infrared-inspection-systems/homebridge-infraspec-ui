@@ -1,6 +1,6 @@
 'use-strict';
 
-import LoggerService from 'camera.ui/src/services/logger/logger.service.js';
+import LoggerService from 'infraspec.ui/src/services/logger/logger.service.js';
 
 const LogLevel = {
   INFO: 'info',
