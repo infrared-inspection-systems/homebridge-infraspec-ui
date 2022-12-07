@@ -10,9 +10,9 @@ export default class Handler {
     this.motionTimers = new Map();
 
     //handle motion from mqtt/http/smtp/videoanalysis (passed through camera.ui)
-    this.cameraUi.on('motion', (cameraName, trigger, state, event) => {
-      this.handle(trigger, cameraName, state, false, false, event);
-    });
+    // this.cameraUi.on('motion', (cameraName, trigger, state, event) => {
+    //   this.handle(trigger, cameraName, state, false, false, event);
+    // });
 
     this.initialized = false;
   }
