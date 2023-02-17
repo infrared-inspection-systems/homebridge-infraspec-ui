@@ -15,11 +15,13 @@
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^0.0.19",
     "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "ffmpeg-for-homebridge": "0.0.9",
     "fs-extra": "10.1.0",
     "infraspec.ui": "1.42.0",
-    "pick-port": "^1.0.0"
+    "pick-port": "^1.0.0",
+    "vue-cli-plugin-vuetify": "^2.5.8"
   },
   "devDependencies": {
     "@babel/core": "7.17.9",
