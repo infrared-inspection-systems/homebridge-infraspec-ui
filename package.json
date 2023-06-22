@@ -19,7 +19,7 @@
     "@vue/cli-service": "^5.0.8",
     "ffmpeg-for-homebridge": "0.0.9",
     "fs-extra": "10.1.0",
-    "infraspec.ui": "1.121.0",
+    "infraspec.ui": "1.125.0",
     "pick-port": "^1.0.0",
     "vue-cli-plugin-vuetify": "^2.5.8"
   },
