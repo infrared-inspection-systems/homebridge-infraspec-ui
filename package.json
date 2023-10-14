@@ -1,5 +1,6 @@
 {
   "name": "homebridge-infraspec-ui",
+  "displayName": "homebridge-infraspec-ui",
   "version": "1.143.0",
   "description": "User Interface for RTSP capable cameras with HSV support.",
   "author": "IIS (https://github.com/infrared-inspection-systems/homebridge-infraspec-ui)",
@@ -56,7 +57,7 @@
       "url": "https://github.com/sponsors/SeydX"
     }
   ],
-  "homepage": "https://github.com/SeydX/homebridge-camera-ui#readme",
+  "homepage": "https://github.com/infrared-inspection-systems/homebridge-infraspec-ui#readme",
   "keywords": [
     "camera",
     "homebridge-plugin",
